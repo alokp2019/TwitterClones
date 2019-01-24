@@ -8,6 +8,7 @@ const expressHandlebars = require('express-handlebars');
 const mongoose = require('mongoose');
 const port = process.env.PORT|| 5000;
 const server = http.createServer(app);
+const fs = require('fs')
 const publicPath = path.join(__dirname, '/public');
 
 
